@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
-
 <body>
     <form action="">
         <caption>
             <center>
                 <img src="img.png"
                     width="100" align="left" alt="" />
-                <img src="https://raw.githubusercontent.com/Vedprtpsingh/Railway_registration_form/2d3dc4ee9144af7c257de0c018a48f46763e4a5e/img2.png"
+                <img src="img2.png"
                     width="70" alt="" align="right" />
                 <h1>NORTH CENTRAL RAILWAY</h1>
             </center>
@@ -22,8 +20,17 @@
         <fieldset>
             <legend>Registration Form</legend>
             <b> From Station:-<input type="text" placeholder="from" />To Station:-<input type="text" placeholder="to" /><br /><br /> </b>
-            Jurney Date<input type="date" name="date" id="date" /><br /><br />
-
+            Jurney Date<input type="date" name="date" id="date" /><br /><br/>
+            Train Name:-<select name="" id="">
+                <option value="Mumbai Express">Mumbai Express</option>
+                <option value="Delhi Express">Delhi Express</option><br/><br/>
+            </select>  <br><br>
+            Train No:<input type="text" placeholder="Enter train no." name="trainno"/><br><br>
+            Name:-<input type="text" placeholder="Enter your name" name="name"/><br><br>
+            Age:- <input type="number"><br><br>
+            Genter: Male:-<input type="radio" id="Gender1" name="Gender"> 
+        Female:-<input type="radio" id="Gender2" name="Gender">
+        Other:-<input type="radio" id="Gender3" name="Gender"><br><br>
 
             All Class:-<select name="class" id="class">
                 <option value="All Class">All Class</option>
@@ -49,11 +56,9 @@
                 <option value="">TALKAL</option>
                 <option value="">PREMIUM TATKAL</option>
             </select><br><br>
-
+            Birth Alletment:- <input type="text"><br><br>
             M.N.:-<input type="text" placeholder="Enter Your Mo.Number">
             Email ID:-<input type="text" placeholder="Enter Your Email ID"><br><br>
-            
-
             <button type="submit">Submit</button>
             <button type="reset">Reset</button>
         </fieldset>
